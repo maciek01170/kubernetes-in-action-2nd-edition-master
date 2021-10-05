@@ -2,7 +2,7 @@ const http = require('http');
 const os = require('os');
 const fs = require('fs');
 
-const version = "0.1";
+const version = "0.2";
 const listenPort = 8080;
 
 function sendResponse(status, contentType, encoding, body, response) {
